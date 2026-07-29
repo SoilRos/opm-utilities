@@ -41,8 +41,6 @@ do
            -B dune_ibcrsmatrix/$repo/build \
            -GNinja \
            -DCMAKE_BUILD_TYPE=Release \
-           -DCMAKE_DISABLE_FIND_PACKAGE_MPI=ON \
-           -DCMAKE_DISABLE_FIND_PACKAGE_ZOLTAN=ON \
            -DCMAKE_DISABLE_FIND_PACKAGE_Doxygen=ON \
            -DCMAKE_C_COMPILER=/usr/lib/ccache/gcc \
            -DCMAKE_CXX_COMPILER=/usr/lib/ccache/g++ \
