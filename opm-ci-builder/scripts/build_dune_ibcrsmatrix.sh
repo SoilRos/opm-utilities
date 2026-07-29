@@ -49,6 +49,6 @@ do
            -DDUNE_ENABLE_PYTHONBINDINGS=OFF \
            -DCMAKE_INSTALL_PREFIX=$DESTDIR \
            -DCMAKE_PREFIX_PATH=$DESTDIR
-  cmake --build dune_ibcrsmatrix/$repo
-  cmake --install dune_ibcrsmatrix/$repo
+  cmake --build dune_ibcrsmatrix/$repo/build
+  cmake --install dune_ibcrsmatrix/$repo/build
 done
