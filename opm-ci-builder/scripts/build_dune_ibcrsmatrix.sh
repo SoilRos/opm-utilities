@@ -14,14 +14,14 @@ dune_repo[dune-uggrid]=https://gitlab.dune-project.org/staging/dune-uggrid.git
 
 # Install dune with experimental IBCRSMatrix extension (26-06-2026)
 declare -A dune_version
-dune_version[dune-alugrid]=b9377f8431a4d51f74b9681d9a59f83abdeb42b1         # master
-dune_version[dune-common]=80a70ffc6bd5abfdc60201b0e0a0aba73377c0a6          # master
-dune_version[dune-fem]=d5761f373be7bab2a4029dac18361cbb50ae006d             # master
-dune_version[dune-geometry]=6620bcb61efa762df56bd730190e025ea2d36876        # master
-dune_version[dune-grid]=d46a44df225f5e7d709969305f2cda6605ba592f            # master
-dune_version[dune-istl]=6d15664115debcbdbaa07c96ae37c3b50a564bfa            # feature/new-bcrsmatrix
-dune_version[dune-localfunctions]=65ecdc21348ba998fa3c17f6f503d9071345fc7f  # master
-dune_version[dune-uggrid]=9b6365fb5f3830cc6d03704934f8ad08c7ed44cc          # master
+dune_version[dune-alugrid]=master
+dune_version[dune-common]=master
+dune_version[dune-fem]=master
+dune_version[dune-geometry]=master
+dune_version[dune-grid]=master
+dune_version[dune-istl]=feature/new-bcrsmatrix
+# dune_version[dune-localfunctions]=master
+# dune_version[dune-uggrid]=master
 
 DESTDIR=/dune/ibcrsmatrix
 
